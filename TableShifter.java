@@ -3,7 +3,7 @@ public class TableShifter {
     TableBuilder tableBuilder;
     private int n;
 
-    int[] shiftedTable;
+    private final int[] shiftedTable;
 
     public TableShifter(TableBuilder tableBuilder) {
         this.tableBuilder = tableBuilder;
